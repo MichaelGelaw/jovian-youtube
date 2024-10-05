@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FFF8F0;
+    font-family: "Inter", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+h1, h2, h3{
+    font-family: "League spartan";
+}
+h4{
+    font-family: "inter", sans-serif ;
+    font-size: 16px;
+}
+.hero{
+   display: flex;
+}
+.hero-description{
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+.big-text{
+    font-family: poppins;
+    margin-top: 48px;
+}
+#header{
+    margin-top: 10px;
+}
+.line{
+    position: absolute;
+    z-index: -1;
+    margin-top: -20px;
+}
+.phone{
+   float: left;
+   
+}
+.header{
+    margin-bottom: 48px;
+}
+.email{
+    float: right;
+    padding-right: 20px;
+}
+.phone-img{
+    margin-bottom: -6px;
+}
+.email-img{
+    margin-bottom: -6px;
+}
+h1{
+    margin-top: 12px;
+}
+p{
+    margin-top: 12px;
+}
+.hero-image-container{
+    width: 50%;
+}
+.hero-image{
+    width: 100%;
+
+}
+.contact-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s ease;
+    margin-top: 32px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+.pricing-text-box{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.div-top-text{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #2858FF;
+    margin-top: 32px;
+}
+.top-text{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #2858FF;
+
+}
+.pricing{
+    color: #190D37;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center; 
+    margin: 12px auto 32px auto;   
+}
+.pricing-description{
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+
+}
+.pricing-boxes{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.pricing-box-1{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.pricing-box-2{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #FFD748;
+    ;
+}
+.pricing-box-3{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#check{
+    margin-bottom: -12px;
+    padding: 5px;
+}
+
+
+li{
+    list-style: none;
+    margin: 6px auto;
+    padding: 6px auto;
+    color: #666666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bold-text{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    display: inline;
+}
+
+.price-per-page{
+    color: #8A8A8A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    display: inline;
+}
+
+.service-description{
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin: 12px auto;
+}
+.pricing-box-2 .top-text , .pricing-box-2 .price-per-page, .pricing-box-2 .service-description, .pricing-box-2 li{
+    color: black;
+}
+
+.pricing-contact-button{
+    text-align: center;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+.pricing-contact-button-2{
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 12px;
+    margin-top: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
