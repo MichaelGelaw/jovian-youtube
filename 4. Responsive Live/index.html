@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about job openings at Jovian and submit your application now">
+  <meta name="keywords" content="data science, software development, jobs">
+  <meta name="author" content="Jovian">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Jovian Careers">
+  <meta property="og:description" content="Learn about job openings at Jovian and submit your application now">
+  <meta property="og:image" content="jovian_meta.png">
+  <meta name="twitter:title" content="Jovian Careers">
+  <meta name="twitter:description" content="Learn about job openings at Jovian and submit your application now">
+  <meta name="twitter:image" content="jovian_meta.png">
+  <title>Jovian Careers</title>
+  <link rel="icon" href="img/jovian_favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Css/css.css" />
+  <title>Jovian Careers</title>
+</head>
+
+<body>
+  <div id="navbar">
+    <img alt="logo" id="logo"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" alt="" />
+  </div>
+  <img src="img/burj.jpg" id="banner" alt="banner" height="300px" />
+  <h1>About Jovian</h1>
+  <div class="about">
+    <div class="description">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+        quisquam sequi veritatis maiores, nemo reiciendis dolorum! Tempora
+        nihil, deleniti distinctio cum eius vel totam harum ea quasi, iure,
+        ratione earum?
+      </p>
+      <p>We offer two courses</p>
+      <div>
+        <ol>
+          <li><a href="#">Full Stack Development Course</a></li>
+          <li><a href="#">Android Development Course</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="team">
+      <img src="img/bat.jpg" alt="people working" />
+    </div>
+  </div>
+
+  <div class="jobs">
+    <table class="jobs-table">
+      <tr class="table-row">
+        <th>Job title</th>
+        <th>Location</th>
+        <th>Salary</th>
+        <th>Posted On</th>
+      </tr>
+      <tr class="table-row">
+        <td>Frontend Developer</td>
+        <td>Abu Dhabi, UAE</td>
+        <td>$80,000</td>
+        <td>Mar 3, 2024</td>
+      </tr>
+      <tr class="table-row">
+        <td>Full Stack Developer</td>
+        <td>Dubai, UAE</td>
+        <td>$90,000</td>
+        <td>Sep 1, 2024</td>
+      </tr>
+      <tr class="table-row">
+        <td>Data Scientist</td>
+        <td>Dubai, UAE</td>
+        <td>$75,000</td>
+        <td>June 9, 2024</td>
+      </tr>
+      <tr class="table-row">
+        <td>ML Engineer</td>
+        <td>Remote</td>
+        <td>$400,000</td>
+        <td>Feb 11, 2024</td>
+      </tr>
+    </table>
+  </div>
+  <div id="application">
+  <h2>Submit your application</h2>
+  <form action="https://formbold.com/s/9x2Rj" id="application-form" 
+        method="POST"
+        enctype="multipart/form-data">
+    <div>
+      <label for="name">Full Name</label><br>
+      <input type="text" name="Full Name" id="name" placeholder="John Doe" required>
+    </div>
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" name="Email Address" id="email" placeholder="john@example.com" required>
+    </div>
+    <div>
+      <label for="phone">Phone Number</label><br>
+      <input type="tel" name="Phone Number" id="phone" placeholder="+251911841363" required>
+    </div>
+    <div>
+      <label for="dob">Date Of Birth</label><br>
+      <input type="date" name="dob" id="dob" required>
+    </div>
+    <div class="form-group">
+      <label for="position">Position Applied for</label><br>
+      <select name="Position Applied" id="position" required>
+        <option value="">Select Position</option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Full Stack">Full Stack Developer</option>
+        <option value="Data Scientist">Data Scientist</option>
+        <option value="ML Enginner">ML Engineer</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="resume">Upload Resume</label><br>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+    </div>
+    <div class="form-group">
+      <label for="coverletter">Comment</label><br>
+      <textarea name="coverletter" id="coverletter" rows="10" cols="50" placeholder="Explain how you are fit for the job ..."></textarea>
+    </div>
+    <div class="form-group">
+      
+      <label for="terms"><input type="checkbox" id="terms" name="terms" required>I agree to the terms and conditions</label>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Submit Application">
+    </div>
+  </form>
+  </div>
+  <div class="footer">
+    <ul class="footer-links">
+      <li><a href="https://www.google.com/">Google</a></li>
+      <li><a href="https://www.google.com/">Youtube</a></li>
+      <li><a href="https://www.google.com/">Courses</a></li>
+    </ul>
+    <p>©Dubai, 2024</p>
+  </div>
+
+</body>
+
+</html>
