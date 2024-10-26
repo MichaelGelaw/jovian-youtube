@@ -204,7 +204,7 @@ h2{
         width: 80%;
     }
 
-    .footer-links list-style{
+    .footer-links li{
         display: inline;
     };
 }
